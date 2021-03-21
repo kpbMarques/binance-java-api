@@ -60,4 +60,20 @@
     </plugins>
   </build>
 
+
+  <distributionManagement>
+    <repository>
+      <id>local-releases</id>
+      <name>Local Repository Releases</name>
+      <url>http://node04:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>local-snapshot</id>
+      <name>Local Repository Snapshot</name>
+      <url>http://node04:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+
+
 </project>
